@@ -4,7 +4,7 @@
 
 ### 🔧 **Task 1: Landing Page Migration**
 
-- Migrated the customer's **custom React landing page** from the **legacy Sinch developer portal** to the **Redocly**.
+- Migrated the customer's **custom React landing page** from the [legacy Sinch developer portal](https://developers.sinch.com/) to the **Redocly**.
 - Updated both **Navbar** and **Footer** components to match the new design (⚠️ *not pixel-perfect*, per requirements).
 
 **✅ Bonus:**
