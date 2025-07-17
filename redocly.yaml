@@ -1,0 +1,57 @@
+logo:
+  link: ./
+  image: ./images/logo.svg
+breadcrumbs:
+  hide: true
+sidebar:
+  hide: true
+plugins:
+  - plugins/add-updated-at.js
+  - plugins/sparkle.js
+decorators:
+  sparkle/operation-sparkle: on
+  add-updated-at/operation-add-updated-at: on
+search:
+  engine: typesense
+colorMode:
+  hide: true
+openapi:
+  showExtensions: true
+navbar:
+  items:
+    - group: Messaging
+      items:
+        - page: ./guides/guide-1.md
+          label: CMS api
+    - group: Voice and Video
+      items:
+        - page: ./apis/museum-api.yaml
+          label: Museum api (Task 2)
+    - group: Email
+      items:
+        - page: ./guides/guide-1.md
+          label: CMS api
+    - group: Numbers & Connectivity
+      items:
+        - page: ./guides/guide-1.md
+          label: CMS api
+    - group: Fax
+      items:
+        - page: ./guides/guide-1.md
+          label: CMS api
+    - page: ./guides/guide-1.md
+      label: Developer Forum
+    - page: ./guides/guide-1.md
+      label: Snich.com
+footer:
+  items:
+    - href: ./
+      icon: ./images/logo-dark.svg
+    - href: https://markdoc.dev/
+      label: Security
+    - href: https://openapis.org
+      label: Privacy
+    - href: https://openapis.org
+      label: Legal & Compliance
+    - href: https://openapis.org
+      label: Cookie Statement
